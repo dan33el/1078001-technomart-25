@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
   </head>
-  <body bgcolor="#c0c0c0">
+  <body style="background:#777">
   	<header class="main-header">
   		<div>
 			<a class="header-logo">
@@ -17,8 +17,8 @@
 		</div>
 
 		<div>
-	  		<h1>Интернет-магазин строительных матерьялов и инструментов для ремонта</h1>
-			<p>"+7 (812) 555-05-55"</p>
+	  		<h1>Интернет-магазин строительных материялов и инструментов для ремонта</h1>
+			<p>+7 (812) 555-05-55</p>
 			<p>г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8</p>
 		</div>
 
@@ -30,12 +30,12 @@
   		<nav class= "main-navigation">
 	  		<ul class="site-navigation">
 	          <li><a href="index.html">Главная</a></li>
-	          <li><a href="about-us.html">Компания</a></li>
+	          <li><a href="#">Компания</a></li>
 	          <li><a href="catalog.html">Каталог</a></li>
-	          <li><a href="news.html">Новости</a></li>
-	          <li><a href="specs.html">Спецпредложения</a></li>
-	          <li><a href="delivery.html">Доставка</a></li>
-	          <li><a href="contacts.html">Контакты</a></li>
+	          <li><a href="#">Новости</a></li>
+	          <li><a href="#">Спецпредложения</a></li>
+	          <li><a href="#">Доставка</a></li>
+	          <li><a href="#">Контакты</a></li>
 	        </ul>
     	</nav>
   	</header>
@@ -54,16 +54,30 @@
 			<a href="#">Подробнее о компании</a>
 		</div>
 
-		<div>	
+		<div class="contacts">	
 			<h2>КОНТАКТЫ</h2>
 			<p>Вы можете забрать товар сами, <br>
 			заехав в наш офис:</p>
-			<img src="" alt="Наше местоположение">
+			<img src="img/index/small_map.jpg" alt="Наше местоположение">
+			<div hidden>
+			<img src="img/index/big_map.jpg" alt="">
+			</div>
+
+		<div class="if-you-lost">
 			<a href="#"> Заблудились? Напишите нам!</a>
+				<form id="if-you-lost" action="" method="post" hidden>
+					<p>Ваше Имя:</p>
+					<input type="text" placeholder="Имя Фамилия">
+					<p>Ваше E-mail:</p>
+					<input type="text" placeholder="email@example.com">
+					<p>Текст письма:</p>
+					<input type="textarea" placeholder="В свободной форме">					
+					<input type="submit" value="Отправить">
+					<button type="button">Закрыть</button> 
+				</form>
 		</div>
-		<div hidden="true">
-			<img src="big_map.jpg" alt="big_map">
 		</div>
+
   	</main>
 
 	<footer class="main-footer">
