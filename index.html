@@ -56,8 +56,8 @@
 
 		<div class="contacts">	
 			<h2>КОНТАКТЫ</h2>
-			<p>Вы можете забрать товар сами, <br>
-			заехав в наш офис:</p>
+			<span>Вы можете забрать товар сами,
+			заехав в наш офис:</span>
 			<img src="img/index/small_map.jpg" alt="Наше местоположение">
 			<div hidden>
 			<img src="img/index/big_map.jpg" alt="">
@@ -65,17 +65,16 @@
 
 		<div class="if-you-lost">
 			<a href="#"> Заблудились? Напишите нам!</a>
-				<form id="if-you-lost" action="" method="post" hidden>
-					<p>Ваше Имя:</p>
-					<input type="text" placeholder="Имя Фамилия">
-					<p>Ваше E-mail:</p>
-					<input type="text" placeholder="email@example.com">
-					<p>Текст письма:</p>
-					<input type="textarea" placeholder="В свободной форме">					
-					<input type="submit" value="Отправить">
+				<form action="#" class="write-us" hidden>
 					<button type="button">Закрыть</button> 
+					<label for="name">Ваше Имя:</label>
+					<input type="text" id="name" placeholder="Имя Фамилия">
+					<label for="email">Ваше E-mail:</label>
+					<input type="text" id="email" placeholder="email@example.com">
+					<span>Текст письма:</span>
+					<textarea name="letter" id="" cols="30" rows="10" placeholder="В свободной форме"></textarea>
+					<button type="submit">Отправить</button>
 				</form>
-		</div>
 		</div>
 
   	</main>
@@ -105,10 +104,10 @@
 		<div>
 			<p>© 2010–2019 Компания «Техномарт»<br>Все права защищены</p>
 			<ul class="social-list">
-				<li><a href="#"><img src="img/icon-vk.svg" alt="мы вконтакте"></a></li>
-				<li><a href="#"><img src="img/icon-fb.svg" alt="мы в facebook"></a></li>	
-				<li><a href="#"><img src="img/icon-insta.svg" alt="мы в instagram"></a></li>
-			</ul>
+				<li><a href="#"><img  src="img/icon-vk.svg" alt="мы вконтакте" aria-label="мы вконтакте"></a></li>
+				<li><a href="#"><img src="img/icon-fb.svg" alt="мы в facebook" aria-label="мы в facebook"></a></li>	
+				<li><a href="#"><img src="img/icon-insta.svg" alt="мы в instagram" aria-label="мы в instagram"></a></li>
+			</ul> 
 			<p>Обратная связь: <br> mail@htmlacademy.ru</p>
 			<p>Разработано — <br> <a href="https://htmlacademy.ru/">htmlacademy.ru</a></p>
 		</div>
