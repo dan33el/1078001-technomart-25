@@ -1,0 +1,282 @@
+@charset 'UTF-8';
+
+body { 
+min-width: 960px;
+margin: 0; 
+padding: 0;
+font-size: 13px;
+line-height: 24px;
+font-weight: 400;
+font-style: normal;
+font-family: "PT Sans","Cuprum",sans-serif;
+color: #000;
+background-color: #fff }
+
+a, a:visited {
+color: #ffffff;
+text-decoration: none
+}
+
+header {
+background-color: #f4f7f9 
+}
+
+.header-top {
+background-color: #293449
+}
+
+.header-top a {
+/* Style for "Поиск:" */
+color: #ffffff;
+font-family: Cuprum;
+font-size: 17px;
+font-weight: 400;
+line-height: 18px;
+}
+
+.header-middle h1 {
+display: inline-block;
+vertical-align: top;
+
+color: #ee3643;
+font-family: Cuprum;
+font-size: 16px;
+font-style: italic;
+line-height: 23px;
+}
+
+.header-middle span {
+display: inline-block;
+vertical-align: top;
+
+color: #ee3643;
+font-family: Cuprum;
+font-size: 21px;
+font-weight: 400;
+line-height: 21px;
+
+border: 3px solid #ffffff;
+width: 270px;
+height: 45px;
+}
+
+.header-middle p {
+display: inline-block;
+vertical-align: top;
+	
+width: 250px;
+height: 13px;
+color: #32425c;
+font-family: Cuprum;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px
+}
+
+.header-middle a {
+
+color: #000000;
+font-family: Cuprum;
+font-size: 21px;
+font-weight: 400;
+line-height: 21px}
+
+.personal-data a {
+
+color: #32425c;
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+text-decoration: underline;
+}
+
+.main-navigation {
+width: 940px;
+height: 60px;
+box-shadow: inset 0 -5px 0 #293449;
+background-color: #32425c;
+}
+
+.site-navigation li {
+display: inline-block;
+vertical-align: top;
+color: #ffffff;
+font-family: Cuprum;
+font-size: 17px;
+font-weight: 400;
+line-height: 17px;
+}
+
+.cascade-navigation a {
+/* Style for "Каталог" */
+color: #000000;
+font-family: "PT Sans";
+font-size: 13px;
+font-weight: 400;
+line-height: 18px;
+text-transform: uppercase;
+}
+
+.cascade-navigation p	{
+	/* Style for "ПЕРФОРАТОР" */
+color: #32425c;
+font-family: Cuprum;
+font-size: 30px;
+font-weight: 400;
+line-height: 30px;
+text-transform: uppercase;
+}
+
+.chosing-list ul {
+	/* Style for "ПРОИЗВОДИТ" "акумулятор" */
+color: #000000;
+font-family: "PT Sans";
+font-size: 17px;
+font-weight: 700;
+line-height: 30px;
+text-transform: uppercase;
+}
+
+.chosing-list li {
+/* Style for "BOSCH  ИНТ" */
+font-size: 15px;
+font-weight: 400;
+line-height: 20px
+}
+
+.chosing button {
+color: #000000;
+font-family: "PT Sans";
+font-size: 13px;
+font-weight: 400;
+line-height: 18px;
+}
+
+.item-list p {
+color: #999999;
+font-family: "PT Sans";
+font-size: 17px;
+font-weight: 700;
+line-height: 18px;
+text-transform: uppercase;
+text-decoration: line-through;
+}
+
+.item-list span {
+color: #000000;
+font-family: "PT Sans";
+font-size: 18px;
+font-weight: 700;
+line-height: 20px;
+}
+
+.main-bottom-left h2 {
+/* Style for "КОМПАНИЯ «" */
+font-family: Cuprum;
+font-size: 30px;
+font-weight: 400;
+line-height: 30px;
+text-transform: uppercase;
+}
+
+.main-bottom-left p {
+font-family: "Cuprum";
+font-weight: 400;
+line-height: 24px;
+font-size: 14px;
+}
+
+.contractors a {
+	/* Text style for "Деловые ли" */
+color: black;
+font-family: Cuprum;
+font-size: 18px;
+font-weight: 400;
+line-height: 20px;
+}
+
+.contacts h2 {
+font-family: Cuprum;
+font-size: 30px;
+font-weight: 400;
+line-height: 30px;
+text-transform: uppercase
+}
+.contacts span {
+font-family: "Myriad Pro";
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.if-you-lost a {
+
+width: 300px;
+height: 38px;
+background-color: #ee3643;
+
+color: #ffffff;
+font-family: Cuprum;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+text-transform: uppercase;
+}
+
+footer {
+background: #32425c
+}
+
+.footer-logo {
+/* Style for "Layer 90 c" */
+width: 220px;
+height: 68px;
+box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.24);
+background-color: #ee3643
+}
+
+.footer-navigation a {
+/* Style for "Компания" */
+width: 69px;
+height: 13px;
+color: #f1f5f7;
+font-family: Cuprum;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.footer-adv-navigation a {
+/* Style for "Материалы" */
+color: #ffd180;
+font-family: Cuprum;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.main-footer p {
+	/* Style for "г. Санкт-П" */
+width: 322px;
+height: 40px;
+color: #f3f7f9;
+font-family: Cuprum;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.footer-bottom {
+background-color: #293449
+}
+.footer-bottom p {
+color: #ffffff;
+font-family: Cuprum;
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+}
+
+.footer-bottom a {
+color: #ffd180
+}
