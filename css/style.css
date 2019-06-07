@@ -8,7 +8,9 @@ font-weight: 400;
 font-style: normal;
 font-family: "PT Sans","Cuprum",sans-serif;
 color: #000;
-background-color: #fff }
+background-color: #fff 
+
+}
 
 a, a:visited {
 color: #ffffff;
@@ -16,7 +18,8 @@ text-decoration: none
 }
 
 header {
-background-color: #f4f7f9 
+background-color: #f4f7f9;
+
 }
 
 .header-logo {
@@ -24,7 +27,9 @@ background: #ee3643;
 }
 
 .header-top {
-background-color: #293449
+display: flex; 
+justify-content: center;
+background-color: #293449;
 }
 
 .header-top a {
@@ -38,6 +43,19 @@ line-height: 18px;
 
 .header-top span {
 background-color: #63a63e;
+}
+
+.about-orders {
+display: flex;
+justify-content: flex-end;
+padding: 0 20px;
+width: 450px;
+height: 42px;
+}
+
+.header-middle {
+display: flex; 
+justify-content: center;
 }
 
 .header-middle h1 {
@@ -80,7 +98,6 @@ line-height: 24px
 }
 
 .header-middle a {
-
 color: #000000;
 font-family: "PT Sans","Cuprum",sans-serif;
 font-size: 21px;
@@ -89,7 +106,6 @@ line-height: 21px
 }
 
 .personal-data a {
-
 color: #32425c;
 font-size: 16px;
 font-weight: 400;
@@ -101,8 +117,13 @@ text-decoration: underline;
 color: #ee3643;
 }
 
-.main-navigation {
+.navigation {
+display: flex;
+justify-content: space-around;
+padding: 0 20px;
+}
 
+.main-navigation {
 width: 940px;
 height: 60px;
 box-shadow: inset 0 -5px 0 #293449;
@@ -111,12 +132,19 @@ background-color: #32425c;
 
 .site-navigation li {
 display: inline-block;
-vertical-align: top;
+vertical-align: baseline;
+padding: 0 20px;
+
 color: #ffffff;
 font-family: "PT Sans","Cuprum",sans-serif;
 font-size: 17px;
 font-weight: 400;
 line-height: 17px;
+}
+
+.cascade-navigation {
+display: flex;
+justify-content: center;
 }
 
 .cascade-navigation a {
@@ -129,14 +157,34 @@ line-height: 18px;
 text-transform: uppercase;
 }
 
-.cascade-navigation p	{
+.chosing-space-head	{
 	/* Style for "ПЕРФОРАТОР" */
+display: inline-block;
+vertical-align: middle;
+width: 940px;
+height: 89px;
+margin-left: 360px;
 color: #32425c;
 font-family: "PT Sans","Cuprum",sans-serif;
 font-size: 30px;
 font-weight: 400;
 line-height: 30px;
+text-indent: 30px;
 text-transform: uppercase;
+background-color: #f2f6f8;
+}
+
+
+.chosing-space {
+display: flex;
+justify-content: space-between;
+
+width: 940px;
+}
+
+.chosing-list {
+width: 220px;
+margin-left: 360px;
 }
 
 .chosing-list ul {
@@ -165,6 +213,20 @@ font-weight: 400;
 line-height: 18px;
 }
 
+
+.item-list {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+width: 700px;	
+}
+
+.item {
+width: 220px;
+margin-bottom: 20px;
+margin-right: 10px; 
+
+}
 .item-list p {
 color: #999999;
 font-family: "PT Sans","Cuprum",sans-serif;"PT Sans","Cuprum",sans-serif;
@@ -201,6 +263,15 @@ font-weight: 700;
 line-height: 20px;
 }
 
+.buy-drill {
+display: none;
+}
+
+.main-bottom {
+display: flex;
+justify-content: space-around;
+}
+
 .main-bottom-left h2 {
 /* Style for "КОМПАНИЯ «" */
 font-family: "PT Sans","Cuprum",sans-serif;
@@ -226,6 +297,10 @@ font-weight: 400;
 line-height: 20px;
 }
 
+.contacts {
+display: block;
+}
+
 .contacts h2 {
 font-family: "PT Sans","Cuprum",sans-serif;
 font-size: 30px;
@@ -240,8 +315,11 @@ font-weight: 400;
 line-height: 24px;
 }
 
-.if-you-lost a {
+.bigmap {
+	display: none;
+}
 
+.if-you-lost a {
 width: 300px;
 height: 38px;
 background-color: #ee3643;
@@ -252,6 +330,10 @@ font-size: 14px;
 font-weight: 400;
 line-height: 18px;
 text-transform: uppercase;
+}
+
+.write-us {
+	display: none;
 }
 
 footer {
@@ -274,8 +356,15 @@ background-color: #ee3643
 list-style: none;
 }
 
-.social-list a:hover {
-background:  #ee3643;
+
+.footer-navigation {
+display: flex;
+justify-content: center;
+}
+
+.footer-adv-navigation {
+display: flex;
+justify-content: center;
 }
 
 .footer-navigation a {
@@ -309,9 +398,23 @@ font-weight: 400;
 line-height: 24px;
 }
 
-.footer-bottom {
+.footer-bottom {  
+display: flex;
+flex-direction: row;
+justify-content: space-around;
 background-color: #293449
 }
+
+.social-list {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.social-list a:hover {
+background:  #ee3643;
+}
+
 .footer-bottom p {
 color: #ffffff;
 font-family: "PT Sans","Cuprum",sans-serif;
